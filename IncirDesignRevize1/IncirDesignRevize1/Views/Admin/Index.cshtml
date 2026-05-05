@@ -1,0 +1,65 @@
+﻿@using IncirDesignRevize1.ViewModels
+@model AdminDashboardViewModel
+
+<h2>Admin Dashboard</h2>
+
+<h4>Siparişler</h4>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Müşteri</th>
+            <th>Urun</th>
+            <th>Adet</th>
+            <th>Tarih</th>
+            <th>Toplam</th>
+            <th>Durum</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var order in Model.Orders)
+        {
+            <tr>
+                <td>@order.Id</td>
+                <td>@order.CustomerName</td>
+                <td>@order.UrunAd</td>
+                <td>@order.Adet</td>
+                <td>@order.OrderDate.ToShortDateString()</td>
+                <td>@order.TotalPrice ₺</td>
+                <td>@order.Status</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+
+
+<h2>Ürün Yönetimi</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ürün Adı</th>
+            <th>Fiyat</th>
+            <th>Stok</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var p in Model.Products)
+        {
+            <tr>
+                <td>@p.UrunAdi</td>
+                <td>@p.Fiyat ₺</td>
+                <td>@p.Stock</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<hr />
+
+<!-- BUTONLAR -->
+<a asp-action="AddProduct">Ürün Ekle</a>
+<a asp-action="Products">Ürün Sil / Aktif-Pasif</a>

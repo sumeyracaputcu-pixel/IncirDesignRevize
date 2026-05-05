@@ -1,0 +1,758 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\admin\\addproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\admin\\products.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\favorite\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\favorite\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\controllers\\favoritecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\data\\dataseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\product\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\viewmodels\\productdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\viewmodels\\productdetailviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\helpers\\sessionextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\models\\sessioncartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\models\\sessioncartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\controllers\\sepetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\controllers\\sepetcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\sepet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\sepet\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\models\\cart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\viewmodels\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\models\\cartitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\models\\approle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\viewmodels\\orderviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\controllers\\uyecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\controllers\\uyecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\odeme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\odeme\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\controllers\\odemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\controllers\\odemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\viewmodels\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\uye\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\uye\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\home\\hakk\u0131m\u0131zda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\home\\hakk\u0131m\u0131zda.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\home\\al\u0131\u015Fveri\u015F.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\home\\al\u0131\u015Fveri\u015F.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\home\\\u0130leti\u015Fim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\home\\\u0130leti\u015Fim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\account\\accessdenied.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|c:\\users\\sumey\\source\\repos\\incirdesignrevize1\\incirdesignrevize1\\migrations\\20260426145918_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A5B6DE68-0BB8-4436-B961-AF2808235867}|IncirDesignRevize1\\IncirDesignRevize1.csproj|solutionrelative:incirdesignrevize1\\migrations\\20260426145918_ilkkurulum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SessionCartItem.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\SessionCartItem.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Models\\SessionCartItem.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\SessionCartItem.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Models\\SessionCartItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:02:41.718Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Sepet\\Index.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Sepet\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Sepet\\Index.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Sepet\\Index.cshtml",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAAAGwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-28T11:14:24.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T15:20:07.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Models\\Product.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\Product.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:46:50.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Admin\\Index.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Admin\\Index.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Admin\\Index.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAAD4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T13:26:06.145Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAuwBwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T09:15:03.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Products.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Admin\\Products.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Admin\\Products.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Admin\\Products.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Admin\\Products.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T07:58:52.576Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AddProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Admin\\AddProduct.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Admin\\AddProduct.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Admin\\AddProduct.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T07:57:47.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGYAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T14:22:36.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Product\\Details.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Product\\Details.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Product\\Details.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Product\\Details.cshtml",
+              "ViewState": "AgIAAIQAAAAAAAAAAAAAAJIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T13:59:21.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDetailViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\ProductDetailViewModel.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\ViewModels\\ProductDetailViewModel.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\ProductDetailViewModel.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\ViewModels\\ProductDetailViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T12:57:01.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SessionExtensions.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Helpers\\SessionExtensions.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Helpers\\SessionExtensions.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Helpers\\SessionExtensions.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Helpers\\SessionExtensions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T18:20:44.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Favorite\\Index.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Favorite\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Favorite\\Index.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Favorite\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-05T07:41:36.781Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "FavoriteController.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\FavoriteController.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Controllers\\FavoriteController.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\FavoriteController.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Controllers\\FavoriteController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T07:42:09.784Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\DATA\\DataSeeder.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\DATA\\DataSeeder.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\DATA\\DataSeeder.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\DATA\\DataSeeder.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T09:05:17.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "SepetController.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\SepetController.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Controllers\\SepetController.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\SepetController.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Controllers\\SepetController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:59:01.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\DATA\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\DATA\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\DATA\\AppDbContext.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\DATA\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T10:39:55.833Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Cart.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\Cart.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Models\\Cart.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\Cart.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Models\\Cart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:40:48.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AdminDashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\AdminDashboardViewModel.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\ViewModels\\AdminDashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\AdminDashboardViewModel.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\ViewModels\\AdminDashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T09:23:52.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T10:20:07.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAI0AAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T12:58:20.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T09:00:18.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "CartItem.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\CartItem.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Models\\CartItem.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\CartItem.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Models\\CartItem.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-28T10:41:58.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AppRole.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\AppRole.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Models\\AppRole.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\AppRole.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Models\\AppRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T10:38:21.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Models\\AppUser.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Models\\AppUser.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Models\\AppUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T10:36:42.151Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "OrderViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\OrderViewModel.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\ViewModels\\OrderViewModel.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\OrderViewModel.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\ViewModels\\OrderViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T09:52:10.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UyeController.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\UyeController.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Controllers\\UyeController.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\UyeController.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Controllers\\UyeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T12:38:58.228Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "OdemeController.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\OdemeController.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Controllers\\OdemeController.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Controllers\\OdemeController.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Controllers\\OdemeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-30T08:08:30.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Odeme\\Index.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Odeme\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Odeme\\Index.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Odeme\\Index.cshtml",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-30T08:09:19.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACMAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T15:45:43.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Program.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Program.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Program.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Program.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAAKYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T11:06:48.038Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\appsettings.json",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\appsettings.json",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\appsettings.json",
+              "RelativeToolTip": "IncirDesignRevize1\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-04-26T10:42:14.62Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\ViewModels\\RegisterViewModel.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\RegisterViewModel.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\ViewModels\\RegisterViewModel.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T10:38:20.161Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-27T10:16:00.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Uye\\Index.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Uye\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Uye\\Index.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Uye\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T13:27:57.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "IncirDesignRevize1\\wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-04-28T10:18:46.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Al\u0131\u015Fveri\u015F.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Home\\Al\u0131\u015Fveri\u015F.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Home\\Al\u0131\u015Fveri\u015F.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Home\\Al\u0131\u015Fveri\u015F.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Home\\Al\u0131\u015Fveri\u015F.cshtml",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAAAKoBAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T13:44:14.017Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Hakk\u0131m\u0131zda.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Home\\Hakk\u0131m\u0131zda.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Home\\Hakk\u0131m\u0131zda.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Home\\Hakk\u0131m\u0131zda.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Home\\Hakk\u0131m\u0131zda.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAGQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T13:45:09.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "\u0130leti\u015Fim.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Home\\\u0130leti\u015Fim.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Home\\\u0130leti\u015Fim.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Home\\\u0130leti\u015Fim.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Home\\\u0130leti\u015Fim.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDoAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T13:45:46.47Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T13:41:17.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAHsAAAAAAAAAAAAAAIwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T09:00:21.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T15:45:29.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "AccessDenied.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\Account\\AccessDenied.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\Account\\AccessDenied.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\Account\\AccessDenied.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-26T15:47:40.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T09:00:23.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "IncirDesignRevize1\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-04-27T09:00:25.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "20260426145918_Ilkkurulum.cs",
+              "DocumentMoniker": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Migrations\\20260426145918_Ilkkurulum.cs",
+              "RelativeDocumentMoniker": "IncirDesignRevize1\\Migrations\\20260426145918_Ilkkurulum.cs",
+              "ToolTip": "C:\\Users\\sumey\\source\\repos\\IncirDesignRevize1\\IncirDesignRevize1\\Migrations\\20260426145918_Ilkkurulum.cs",
+              "RelativeToolTip": "IncirDesignRevize1\\Migrations\\20260426145918_Ilkkurulum.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwEAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-26T14:59:18.861Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

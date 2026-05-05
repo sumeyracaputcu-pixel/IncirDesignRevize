@@ -1,0 +1,80 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    @model List<SessionCartItem>
+
+    <div class="container mt-4">
+
+        <h3>Ödeme Sayfası</h3>
+        <hr />
+
+        <!-- 📦 TESLİMAT ADRESİ -->
+        <h5>Teslimat Adresi</h5>
+
+        <div class="mb-3">
+            <textarea class="form-control" rows="3" placeholder="Adresinizi giriniz"></textarea>
+        </div>
+
+        <!-- ☑️ FATURA AYNI -->
+        <div class="form-check mb-4">
+            <input class="form-check-input" type="checkbox" id="sameAddress">
+            <label class="form-check-label" for="sameAddress">
+                Fatura ve teslimat adresim aynı
+            </label>
+        </div>
+
+        <!-- 💳 KART BİLGİLERİ -->
+        <h5>Kart Bilgileri</h5>
+
+        <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Kart Numarası">
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Ay">
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="Yıl">
+            </div>
+            <div class="col-md-4">
+                <input type="text" class="form-control" placeholder="CVV">
+            </div>
+        </div>
+
+        <!-- 📜 ONAY -->
+        <div class="form-check mb-4">
+            <input class="form-check-input" type="checkbox" id="onay">
+            <label class="form-check-label" for="onay">
+                Ön Bilgilendirme Formu ’nu, Mesafeli Satış Sözleşmesi ’ni okudum ve onaylıyorum.
+                Kişisel verileriniz, Aydınlatma Metinleri kapsamında işlenmektedir.
+            </label>
+        </div>
+
+        <!-- 🧾 TOPLAM -->
+        @{
+            decimal toplam = 0;
+
+            foreach (var item in Model)
+            {
+                toplam += item.Price * item.Quantity;
+            }
+
+            decimal kargo = 500;
+            decimal genelToplam = toplam + kargo;
+        }
+
+        <div class="text-end mb-3">
+            <h5>Genel Toplam: @genelToplam TL</h5>
+        </div>
+
+        <!-- ✅ BUTON -->
+        <div class="text-end">
+            <button class="btn btn-success px-4">
+                Onayla ve Bitir
+            </button>
+        </div>
+
+    </div>
+}

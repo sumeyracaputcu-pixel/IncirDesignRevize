@@ -1,0 +1,32 @@
+﻿@model List<Product>
+
+<h2>Ürün Yönetimi</h2>
+
+<a asp-action="AddProduct">➕ Ürün Ekle</a>
+
+<table border="1">
+    <tr>
+        <th>Ad</th>
+        <th>Fiyat</th>
+        <th>Stok</th>
+        <th>Durum</th>
+        <th>İşlem</th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.Name</td>
+            <td>@item.Price ₺</td>
+            <td>@item.Stock</td>
+            <td>
+                @(item.IsActive ? "Aktif" : "Pasif")
+            </td>
+            <td>
+                <a asp-action="ToggleStatus" asp-route-id="@item.Id">
+                    @(item.IsActive ? "Pasif Yap" : "Aktif Yap")
+                </a>
+            </td>
+        </tr>
+    }
+</table>

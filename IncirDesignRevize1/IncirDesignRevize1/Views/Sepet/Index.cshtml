@@ -1,0 +1,116 @@
+﻿@model List<SessionCartItem>
+
+@{
+    decimal toplam = 0;
+}
+
+<div class="container mt-4">
+    <div class="row">
+
+        <!-- 🛒 SOL TARAF (ÜRÜNLER) -->
+        <div class="col-md-8">
+            <h4>Sepetim (@Model.Count Ürün)</h4>
+
+            <hr />
+
+            @foreach (var item in Model)
+            {
+                var araToplam = item.Price * item.Quantity;
+                toplam += araToplam;
+
+                <div class="card mb-3 p-3">
+                    <div class="row align-items-center">
+
+
+                        <!-- Ürün Bilgi -->
+                        <div class="col-md-4">
+                            <h6>@item.Name</h6>
+                            <small>Standart Ürün</small>
+                        </div>
+
+                        <!-- Adet -->
+                        <div class="col-md-3">
+                            <div class="d-flex">
+                                <div class="d-flex">
+
+                                    <!-- AZALT -->
+                                    <a asp-controller="Sepet"
+                                       asp-action="Azalt"
+                                       asp-route-productId="@item.ProductId"
+                                       class="btn btn-outline-secondary">-</a>
+
+                                    <input type="text" value="@item.Quantity"
+                                           class="form-control text-center mx-2" style="width:60px;" readonly />
+
+                                    <!-- ARTIR -->
+                                    <a asp-controller="Sepet"
+                                       asp-action="Arttir"
+                                       asp-route-productId="@item.ProductId"
+                                       class="btn btn-outline-secondary">+</a>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Fiyat -->
+                        <div class="col-md-3 text-end">
+                            <strong>@araToplam TL</strong>
+                        </div>
+
+                    </div>
+                </div>
+            }
+        </div>
+
+        <!-- 💳 SAĞ TARAF (ÖZET) -->
+        <div class="col-md-4">
+
+            <div class="card p-3">
+
+                <h5>Sipariş Özeti</h5>
+                <hr />
+
+                @{
+                    decimal kargo = 500;
+                    decimal genelToplam = toplam + kargo;
+                }
+
+                <div class="d-flex justify-content-between">
+                    <span>Toplam</span>
+                    <span>@toplam TL</span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                    <span>Kargo</span>
+                    <span>@kargo TL</span>
+                </div>
+
+                <hr />
+
+                <div class="d-flex justify-content-between">
+                    <strong>Genel Toplam</strong>
+                    <strong>@genelToplam TL</strong>
+                </div>
+
+                <a asp-controller="Odeme" asp-action="Index"
+                   class="btn btn-dark w-100 mt-3">
+                    Alışverişi Tamamla
+                </a>
+                <div class="mt-3">
+                    <label class="form-label">Kupon Kodu</label>
+
+                    <div class="d-flex">
+                        <input type="text" class="form-control me-2" placeholder="Kupon kodunu gir">
+
+                        <button class="btn btn-outline-dark">
+                            Uygula
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>

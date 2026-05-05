@@ -1,0 +1,32 @@
+﻿@model Product
+
+<h2>Ürün Ekle</h2>
+
+<form asp-action="AddProduct" method="post">
+    <div>
+        <label>Ürün Adı</label>
+        <input asp-for="Name" />
+    </div>
+
+    <div>
+        <label>Fiyat</label>
+        <input asp-for="Price" />
+    </div>
+
+    <div>
+        <label>Stok</label>
+        <input asp-for="Stock" />
+    </div>
+
+    <div>
+        <label>Açıklama</label>
+        <textarea asp-for="Description"></textarea>
+    </div>
+
+    <div>
+        <label>Görsel URL</label>
+        <input asp-for="ImageUrl" />
+    </div>
+
+    <button type="submit">Kaydet</button>
+</form>

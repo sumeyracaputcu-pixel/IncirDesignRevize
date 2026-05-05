@@ -1,0 +1,140 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+
+            @* ═══════════════════════════════════════════════════════════════ *@
+            @* HOŞGELDİN MESAJI *@
+            @* ═══════════════════════════════════════════════════════════════ *@
+            @if (SignInManager.IsSignedIn(User))
+            {
+                @* Giriş Yapmış Kullanıcı İçin *@
+                var currentUser = await UserManager.GetUserAsync(User);
+                var roles = await UserManager.GetRolesAsync(currentUser!);
+
+                <div class="card shadow mb-4">
+                    <div class="card-body p-4">
+                        <h1 class="display-5 mb-3">
+                            <i class="bi bi-emoji-smile text-success me-2"></i>
+                            Hoş Geldin, @currentUser?.Ad!
+                        </h1>
+                        <p class="lead text-muted">
+                            İncirDesign Projesine Hoşgeldiniz.
+                        </p>
+                        <hr />
+                        <div class="row text-start">
+                            <div class="col-md-6">
+                                <p><strong>Ad Soyad:</strong> @currentUser?.Ad @currentUser?.Soyad</p>
+                                <p><strong>E-posta:</strong> @currentUser?.Email</p>
+                            </div>
+                            <div class="col-md-6">
+                                <p><strong>Kayıt Tarihi:</strong> @currentUser?.KayitTarihi.ToShortDateString()</p>
+                                <p>
+                                    <strong>Roller:</strong>
+                                    @foreach (var role in roles)
+                                    {
+                                        <span class="badge bg-primary me-1">@role</span>
+                                    }
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <p>
+                    <h3> Ürünleri görmek için tıkla-></h3>
+                    <a rel="sponsored" class="text-success" href="https:/home/Alışveriş" target="_blank">Alışveriş</a>.
+                </p>
+            }
+            else
+            {
+                @* Giriş Yapmamış Kullanıcı İçin *@
+
+                <!-- Start Banner Hero -->
+                <div id="incir-carousel" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#incir-carousel" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#incir-carousel" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#incir-carousel" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="container">
+                                <div class="row p-5">
+                                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                        <img class="img-fluid" src="/img/urunler/okey-7.jpeg" alt="">
+                                    </div>
+                                    <div class="col-lg-6 mb-0 d-flex align-items-center">
+                                        <div class="text-align-left align-self-center">
+
+                                            <h3 class="h2">Kişiseleştirilmiş Okey Takımları</h3>
+                                            <p>
+                                                Okey keyfi artık daha özel! 🎲
+                                                Özel üretim okey takımlarımız, tamamen sizin zevkinize göre tasarlanıyor. İster favori temanız olsun, ister isim ya da logo ekleyin; her taş ve ıstaka sizin için özenle hazırlanıyor. Arkadaşlarınızla oynarken farkı hissedeceksiniz!
+                                                <a rel="sponsored" class="text-success" href="https:/home/Alışveriş" target="_blank">Alışveriş</a>.
+                                            </p>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row p-5">
+                                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                        <img class="img-fluid" src="/img/urunler/okey-8.jpeg" alt="">
+                                    </div>
+                                    <div class="col-lg-6 mb-0 d-flex align-items-center">
+                                        <div class="text-align-left">
+
+                                            <h3 class="h2">Özel Seri Okey Takımları</h3>
+                                            <p>
+                                                Okey keyfinize özel dokunuş! 🎲
+                                                Özel seri okey takımlarımız, sadece sizin için üretiliyor. İster isim, ister tema, ister renk seçin; her taş ve ıstaka tamamen özenle tasarlanıyor. Arkadaşlarınızla farkı hissedin!
+                                                <a rel="sponsored" class="text-success" href="https:/home/Alışveriş" target="_blank">Alışveriş</a>.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="container">
+                                <div class="row p-5">
+                                    <div class="mx-auto col-md-8 col-lg-6 order-lg-last">
+                                        <img class="img-fluid" src="/img/urunler/okey-9.jpeg" alt="">
+                                    </div>
+                                    <div class="col-lg-6 mb-0 d-flex align-items-center">
+                                        <div class="text-align-left">
+
+                                            <h3 class="h2">İndirim Kodu </h3>
+                                            <p>
+                                                "INCIR20" kodu ile sepette %20 indirim
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev text-decoration-none w-auto ps-3" href="#incir-carousel" role="button" data-bs-slide="prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </a>
+                    <a class="carousel-control-next text-decoration-none w-auto pe-3" href="#incir-carousel" role="button" data-bs-slide="next">
+                        <i class="fas fa-chevron-right"></i>
+                    </a>
+                </div>
+                <!-- End Banner Hero -->
+            }
+
+
+        </div>
+    </div>
+</div>

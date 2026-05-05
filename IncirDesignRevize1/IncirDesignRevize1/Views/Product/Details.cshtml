@@ -1,0 +1,208 @@
+﻿@model IncirDesignRevize1.ViewModels.ProductDetailViewModel
+@{
+}
+<!-- Open Content -->
+@* Details.cshtml *@
+<section class="bg-light">
+    <div class="container pb-5">
+        <div class="row">
+            <div class="col-lg-5 mt-5">
+                <div class="card mb-3">
+                    <img class="card-img img-fluid" src="@Model.Resim" alt="Ürün resmi" id="product-detail">
+                </div>
+                <div class="row">
+                    <!--Start Controls-->
+                    <div class="col-1 align-self-center">
+                        <a href="#multi-item-example" role="button" data-bs-slide="prev">
+                            <i class="text-dark fas fa-chevron-left"></i>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                    </div>
+                    <!--End Controls-->
+                    <!--Start Carousel Wrapper-->
+                    <div id="multi-item-example" class="col-10 carousel slide carousel-multi-item" data-bs-ride="carousel">
+                        <!--Start Slides-->
+                        <div class="carousel-inner product-links-wap" role="listbox">
+
+                            <!--First slide-->
+                            <div class="carousel-item active">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="/img/urunler/okey-7.jpeg" alt="Product Image 1">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="/img/urunler/okey-8.jpeg" alt="Product Image 2">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="/img/urunler/okey-9.jpeg" alt="Product Image 3">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.First slide-->
+                            <!--Second slide-->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="~/img/urunler/okey-4.jpeg" alt="Product Image 4">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="~/img/urunler/okey-5.jpeg" alt="Product Image 5">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="~/img/urunler/okey-6.jpeg" alt="Product Image 6">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Second slide-->
+                            <!--Third slide-->
+                            <div class="carousel-item">
+                                <div class="row">
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="~/img/urunler/okey-1.jpg" alt="Product Image 7">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="~/img/urunler/okey-2.jpg" alt="Product Image 8">
+                                        </a>
+                                    </div>
+                                    <div class="col-4">
+                                        <a href="#">
+                                            <img class="card-img img-fluid" src="~/img/urunler/okey-3.jpg" alt="Product Image 9">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/.Third slide-->
+                        </div>
+                        <!--End Slides-->
+                    </div>
+                    <!--End Carousel Wrapper-->
+                    <!--Start Controls-->
+                    <div class="col-1 align-self-center">
+                        <a href="#multi-item-example" role="button" data-bs-slide="next">
+                            <i class="text-dark fas fa-chevron-right"></i>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <!--End Controls-->
+                </div>
+            </div>
+            <!-- col end -->
+            <div class="col-lg-7 mt-5">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="h2">@Model.UrunAdi</h1>
+                        <p class="h3 py-2">@Model.Fiyat</p>
+                        <p class="py-2">
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-warning"></i>
+                            <i class="fa fa-star text-secondary"></i>
+                            <span class="list-inline-item text-dark"> 4.8 | 36 Değerlendirme</span>
+                        </p>
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <h6>Menşei:</h6>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted"><strong>Türkiye</strong></p>
+                            </li>
+                        </ul>
+
+                        <p class="fs-6 text-secondary mt-3" style="line-height: 1.6; text-align: justify;">@ViewBag.ProductDescription</p>
+
+                        <ul class="list-inline">
+                            <li class="list-inline-item">
+                                <h6>Istaka Türleri:</h6>
+                            </li>
+                            <li class="list-inline-item">
+                                <p class="text-muted"><strong>Ahşap / Plastik</strong></p>
+                            </li>
+                        </ul>
+
+
+
+                        <a asp-controller="Sepet"
+                           asp-action="Ekle"
+                           asp-route-productId="@Model.Id"
+                           asp-route-name="@Model.UrunAdi"
+                           asp-route-price="2500"
+                           class="btn btn-success">
+                            Sepete Ekle
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Close Content -->
+<!-- Start Article -->
+<section class="py-5">
+    <div class="container">
+
+        <div class="row text-left p-2 pb-3">
+            <h4>Benzer Ürünler</h4>
+        </div>
+
+        <div class="row">
+
+            <!-- ÜRÜN 1 -->
+            <div class="col-md-4">
+                <div class="product-wap card rounded-0">
+                    <img class="card-img img-fluid" src="~/img/urunler/isim.png">
+                    <div class="card-body">
+                        <a asp-controller="Products" asp-action="Detail" asp-route-id="1" class="h6 text-decoration-none">
+                            İsim Yazılı Okey Takımı
+                        </a>
+                        <p class="text-center mb-0">2.500 TL</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ÜRÜN 2 -->
+            <div class="col-md-4">
+                <div class="product-wap card rounded-0">
+                    <img class="card-img img-fluid" src="~/img/urunler/kurt.png">
+                    <div class="card-body">
+                        <a asp-controller="Products" asp-action="Detail" asp-route-id="2" class="h6 text-decoration-none">
+                            Kurt Figürlü Okey Takımı
+                        </a>
+                        <p class="text-center mb-0">2.500 TL</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ÜRÜN 3 -->
+            <div class="col-md-4">
+                <div class="product-wap card rounded-0">
+                    <img class="card-img img-fluid" src="~/img/urunler/barbie.png">
+                    <div class="card-body">
+                        <a asp-controller="Products" asp-action="Detail" asp-route-id="3" class="h6 text-decoration-none">
+                            Barbie Temalı Okey Takımı
+                        </a>
+                        <p class="text-center mb-0">2.500 TL</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+<!-- End Article-->

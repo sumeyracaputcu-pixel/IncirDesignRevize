@@ -1,0 +1,89 @@
+﻿@model IncirDesignRevize1.ViewModels.LoginViewModel
+@{
+    ViewData["Title"] = "Giriş Yap";
+}
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5 col-lg-4">
+
+            <div class="card shadow">
+
+                @* Kart Başlığı *@
+                <div class="card-header bg-success text-white text-center py-3">
+                    <h4 class="mb-0">
+                        <i class="bi bi-box-arrow-in-right me-2"></i>Giriş Yap
+                    </h4>
+                </div>
+
+                @* Kart Gövdesi *@
+                <div class="card-body p-4">
+
+                    @* Hata Mesajları *@
+                    <div asp-validation-summary="ModelOnly" class="alert alert-danger"
+                         role="alert"></div>
+
+                    <form asp-action="Login" asp-controller="Account" method="post">
+
+                        @* ReturnUrl'i gizli alan olarak gönder *@
+                        <input type="hidden" name="returnUrl" value="@ViewData["ReturnUrl"]" />
+
+                        @* E-POSTA ALANI *@
+                        <div class="mb-3">
+                            <label asp-for="Email" class="form-label"></label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-envelope"></i>
+                                </span>
+                                <input asp-for="Email" class="form-control"
+                                       placeholder="ornek@email.com" />
+                            </div>
+                            <span asp-validation-for="Email" class="text-danger small"></span>
+                        </div>
+
+                        @* ŞİFRE ALANI *@
+                        <div class="mb-3">
+                            <label asp-for="Password" class="form-label"></label>
+                            <div class="input-group">
+                                <span class="input-group-text">
+                                    <i class="bi bi-lock"></i>
+                                </span>
+                                <input asp-for="Password" class="form-control"
+                                       placeholder="Şifrenizi giriniz" />
+                            </div>
+                            <span asp-validation-for="Password" class="text-danger small"></span>
+                        </div>
+
+                        @* BENİ HATIRLA *@
+                        <div class="mb-3 form-check">
+                            <input asp-for="RememberMe" class="form-check-input" />
+                            <label asp-for="RememberMe" class="form-check-label"></label>
+                        </div>
+
+                        @* GÖNDER BUTONU *@
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success btn-lg">
+                                <i class="bi bi-door-open me-2"></i>Giriş Yap
+                            </button>
+                        </div>
+
+                    </form>
+                </div>
+
+                @* Kart Alt Bilgisi *@
+                <div class="card-footer text-center py-3 bg-light">
+                    <span class="text-muted">Hesabınız yok mu?</span>
+                    <a asp-action="Register" asp-controller="Account"
+                       class="text-decoration-none ms-1">
+                        Üye Olun
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+
